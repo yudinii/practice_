@@ -1,13 +1,15 @@
-`NAME`: Wine-Recommendation
+`Wein für Sie`: Wine-Recommendation
 =============
 ![cover](https://github.com/yudinii/practice_/assets/157538170/c69f1ed0-2ef0-4387-8962-b4ee6dfa7459)
 
-(NAME_*website link*) is a website that uses (000) data to recommend wines according to its origin, pairing food type, and (000) based on wine data of (*data_source_link?*) - consisting of 60,000 different wines from 10,000 different regions.  
+[Wein für Sie](https://public.tableau.com/app/profile/aminov.alidzhon6857/viz/WineDashboard_17053558456560/Main_dashboard2) is a project that uses (000) data to recommend wines according to its type, origin, and pairing food based on wine data of (*data_source_link?*) - consisting of 60,000 different wines from 10,000 different regions.  
   
-We intend `NAME` to serve as a easy and quick recommendation for daily wine selection for the people who love wines by using *machine learning algorithms?*. Here's an example of how the recommendation works:  
+We intend `Wein für Sie` to serve as a easy and quick recommendation for daily wine selection for the people who love wines by using *machine learning algorithms?*. 
+  
+Here's an example of how the recommendation works:  
 
-(*captured image*)
-  
+<img width="946" alt="Screenshot 2024-01-27 at 11 02 00" src="https://github.com/yudinii/practice_/assets/157538170/0df8aa81-99e1-4778-965d-a99d07a93e10">
+
 We made this website from 2023.00. to 2023.00. and 100% contribution was made by *name, name, name, name, name, ...* from website creation to coding.  
 
 Why we made `NAME`
