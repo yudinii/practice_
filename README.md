@@ -39,8 +39,7 @@ git clone git@github.com:zalandoresearch/fashion-mnist.git
 
 ### How to use
 
-ffmpeg -i [wine](https://github.com/yudinii/practice_/assets/157538170/6ca33c3e-5071-48de-82ba-e2c0b820826d) -pix_fmt rgb24 output.gif
-
+![Uploading Screen%20Recording%202024-01-27%20at%2010.24.20-2.gif…]()
 
 
 
