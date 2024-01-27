@@ -33,16 +33,15 @@ git clone git@github.com:zalandoresearch/fashion-mnist.git
 
 ### File structure 
 
+
 ### Developing 
 
 
 ### How to use
 
-#### Loading data with python
+ffmpeg -i [wine](https://github.com/yudinii/practice_/assets/157538170/6ca33c3e-5071-48de-82ba-e2c0b820826d) -pix_fmt rgb24 output.gif
 
-```
-import 0000
-```
+
 
 
 ## Contributing
