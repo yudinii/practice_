@@ -1,6 +1,6 @@
 `Wein für Sie`: Wine-Recommendation
 =============
-![cover](https://github.com/yudinii/practice_/assets/157538170/c69f1ed0-2ef0-4387-8962-b4ee6dfa7459)
+![cover](https://github.com/yudinii/practice_/assets/157538170/723acb58-1667-4007-a4cc-0e6d396523fc)
 
 [Wein für Sie](https://public.tableau.com/app/profile/aminov.alidzhon6857/viz/WineDashboard_17053558456560/Main_dashboard2) is a project that uses (000) data to recommend wines according to its type, origin, and pairing food based on wine data of (*data_source_link?*) - consisting of 60,000 different wines from 10,000 different regions.  
   
@@ -10,9 +10,10 @@ Here's an example of how the recommendation works:
 
 <img width="946" alt="Screenshot 2024-01-27 at 11 02 00" src="https://github.com/yudinii/practice_/assets/157538170/0df8aa81-99e1-4778-965d-a99d07a93e10">
 
-We made this website from 2023.00. to 2023.00. and 100% contribution was made by *name, name, name, name, name, ...* from website creation to coding.  
+We made this from 2023.00. to 2023.00. and 100% contribution was made by *name, name, name, name, name, ...* from website creation to coding.  
 
-Why we made `NAME`
+  
+Why we made `Wein für Sie`
 -------------
 
 problem statement & goals  
