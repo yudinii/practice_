@@ -39,7 +39,7 @@ git clone git@github.com:zalandoresearch/fashion-mnist.git
 
 ### How to use
 
-![Uploading Screen%20Recording%202024-01-27%20at%2010.24.20-2.gif…]()
+![Screen%20Recording%202024-01-27%20at%2010 24 20-2](https://github.com/yudinii/practice_/assets/157538170/886f3a15-cee4-4948-891b-366945f062e6)
 
 
 
