@@ -15,6 +15,10 @@ We made this from 2023.00. to 2023.00. and 100% contribution was made by *name, 
   
 Why we made `Wein für Sie`
 -------------
+![introduction](https://github.com/yudinii/practice_/assets/157538170/6593aa5d-81a0-49fd-b74b-bd3965aec7af)
+  
+![why we made this](https://github.com/yudinii/practice_/assets/157538170/9dc4d0d8-91a2-4729-8e19-28f97696d8e0)
+
 
 problem statement & goals  
 brief description of a project as a solution to problem
