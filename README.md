@@ -12,9 +12,9 @@ Why we made `Wein für Sie`
 -------------
 ![introduction](https://github.com/yudinii/practice_/assets/157538170/dfd1f3e3-b17d-440a-af42-c076cd581c08)
 
-![why we made this](https://github.com/yudinii/practice_/assets/157538170/eaef1d4b-0971-46f7-9179-37aef48c5153)
-  
+![why we made this](https://github.com/yudinii/practice_/assets/157538170/0c3e35b8-bc15-4276-bd55-f9274a59b8f3)
 
+  
 Getting started
 -------------
 ![how it works](https://github.com/yudinii/practice_/assets/157538170/1147e0eb-7237-48da-aebb-4c286202aa10)
