@@ -2,57 +2,118 @@
 =============
 ![cover](https://github.com/yudinii/practice_/assets/157538170/723acb58-1667-4007-a4cc-0e6d396523fc)
 
-[Wein für Sie](https://public.tableau.com/app/profile/aminov.alidzhon6857/viz/WineDashboard_17053558456560/Main_dashboard2) is a project that uses (000) data to recommend wines according to its type, origin, and pairing food based on wine data of (*data_source_link?*) - consisting of 60,000 different wines from 10,000 different regions.  
+[Wein für Sie](https://public.tableau.com/app/profile/aminov.alidzhon6857/viz/WineDashboard_17053558456560/Main_dashboard2) provides detailed information about wineries, wines, their ratings, and food pairings. It is designed for wine enthusiasts and professionals seeking extensive wine-related data. 
   
-We intend `Wein für Sie` to serve as a easy and quick recommendation for daily wine selection for the people who love wines by using *machine learning algorithms?*. 
+We utilized Google Cloud BigQuery for data storage and manipulation and applied Apache Airflow to create end-to-end data pipeline. 
   
-Here's an example of how the recommendation works:  
 
-<img width="946" alt="Screenshot 2024-01-27 at 11 02 00" src="https://github.com/yudinii/practice_/assets/157538170/0df8aa81-99e1-4778-965d-a99d07a93e10">
-
-We made this from 2023.00. to 2023.00. and 100% contribution was made by *name, name, name, name, name, ...* from website creation to coding.  
-
-  
+    
 Why we made `Wein für Sie`
 -------------
-![introduction](https://github.com/yudinii/practice_/assets/157538170/6593aa5d-81a0-49fd-b74b-bd3965aec7af)
-  
+![introduction](https://github.com/yudinii/practice_/assets/157538170/dfd1f3e3-b17d-440a-af42-c076cd581c08)
+
 ![why we made this](https://github.com/yudinii/practice_/assets/157538170/9dc4d0d8-91a2-4729-8e19-28f97696d8e0)
-
-
-problem statement & goals  
-brief description of a project as a solution to problem
+  
 
 Getting started
 -------------
+![how it works](https://github.com/yudinii/practice_/assets/157538170/1147e0eb-7237-48da-aebb-4c286202aa10)
+![how it works1](https://github.com/yudinii/practice_/assets/157538170/0e1d39be-be9a-4a54-9d00-c3cc0618d9e1)
 
-### Get the data
-You can use direct links to download the dataset. The data is stored in *000* format.  
-
-*link_here*
   
-Alternatively, you can clone this GitHub repository; the dataset appears under `*data/000000*` This repo also contains some scripts for benchmark and visualization.  
+you can also copy the sample code below: 
 
+#### 1) Get Wineries  
+* Sample Request
 ```
-git clone git@github.com:zalandoresearch/fashion-mnist.git
+GET https://apide.fly.dev/wineries
+```
+* Sample Response Body
+```ruby
+[
+    {
+        'website': 'http://www.vinicolaperini.com.br', 
+        'wineryid': 10001, 
+        'wineryname': 'Casa Perini'
+    }
+]
+```
+#### 2) Get Wine Information
+* Sample Request
+```
+GET https://apide.fly.dev/wine
+```
+* Sample Response Body
+```ruby
+[
+    {
+        'abv': 7.5, 
+        'acidity': 'High', 
+        'body': 'Medium-bodied',
+        'code': 'BR', 
+        'country': 'Brazil',
+        'elaborate': 'Varietal/100%',
+        'grapes': "['Muscat/Moscato']", 
+        'harmonize': "['Pork', 'Rich Fish','Shellfish']",
+        'regionid': 1001, 
+        'regionname': 'Serra Gaúcha',
+        'type': 'Sparkling', 
+        'url': 'https://i.imgur.com/ff9UaLf.jpg', 
+        'vintages': "[2020, 2019, 2018, 2017]", 
+        'wineid': 100001, 
+        'winename': 'Espumante Moscatel',
+        'wineryid': 10001
+    }
+]
+```
+
+#### 3) Get Wine Ratings  
+* Sample Request
+```
+GET https://apide.fly.dev/ratings
+```
+* Sample Response Body
+```ruby
+[
+    {
+        'avg_rating': 4.5, 
+        'vintage': '1994',
+        'wineid': 174184
+    }
+]
+```
+
+#### 4) Get Harmonizer Suggestion 
+* Sample Request
+```
+GET https://apide.fly.dev/harmonizer
+```
+* Sample Response Body
+```ruby
+[
+    {
+        'snack': 'Aperitif',
+        'url': 'https://i.imgur.com/wE2P1rn.jpg'
+    }
+]
 ```
 
 
-### File structure 
+### Data Cleaning 
 
 
-### Developing 
+### BigQuery
+
+  
+### Tableau
 
 
 ### How to use
 
 ![Screen%20Recording%202024-01-27%20at%2010 24 20-2](https://github.com/yudinii/practice_/assets/157538170/886f3a15-cee4-4948-891b-366945f062e6)
 
+<img width="970" alt="Screenshot 2024-01-27 at 11 02 00" src="https://github.com/yudinii/practice_/assets/157538170/0df8aa81-99e1-4778-965d-a99d07a93e10">
 
 
-## Contributing
-
-  
-## Contact
 
   
