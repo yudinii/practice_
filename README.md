@@ -118,9 +118,16 @@ pip install -r requirements.txt
 ![pulling1](https://github.com/yudinii/practice_/assets/157538170/9a052ae9-e0ff-4ee2-bc28-46a87ac6f70b)
 
 
-![bigquery](https://github.com/yudinii/practice_/assets/157538170/ce290aa2-7c8f-4c4a-a721-ed42a5c3d21c)
+![bigquery](https://github.com/yudinii/practice_/assets/157538170/4bab7099-35ad-4f8a-b0f1-f64bc1e9a9fd)
+
+![bigquery1](https://github.com/yudinii/practice_/assets/157538170/bfe1a5fb-e6c6-4fff-a868-563d76991885)
+
+![bigquery2](https://github.com/yudinii/practice_/assets/157538170/c1b3c78d-8283-4473-aa6c-3f9fbcba5c6c)
+
+![bigquery3](https://github.com/yudinii/practice_/assets/157538170/2127b218-f45b-4c58-93a7-6eb220324c72)
 
 
+  
   
 ![Dashboard](https://github.com/yudinii/practice_/assets/157538170/7e63cd4a-c548-4579-b6b5-5154f44ed0b9)
 
