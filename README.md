@@ -22,7 +22,8 @@ Getting started
 ![api1](https://github.com/yudinii/practice_/assets/157538170/f11bdc92-3c9e-4835-b82e-6c80206be05d)
 
   
-you can also copy the sample code below: 
+You can also copy the sample code below and read API implementation below:
+  
 
 #### 1) Get Wineries  
 * Sample Request
@@ -99,6 +100,51 @@ GET https://apide.fly.dev/harmonizer
 ]
 ```
 
+# **API Implementation Documentation**
+
+## **Overview**
+
+This document details a Flask-based API interfacing with a PostgreSQL database, designed for managing data about wines, wineries, ratings, and harmonizer pictures. The deployment of both the Flask API and the PostgreSQL database is facilitated through **`fly.io`**, which simplifies the deployment process.
+
+## **Database Schema**
+
+![image](https://github.com/yudinii/practice_/assets/157538170/ce46d016-2367-41e6-ae6a-ae7179b4bdcd)
+
+### **Database Setup**
+
+### Create Database Tables
+
+Tables are created using SQL **`CREATE TABLE`** statements stored in **`table_create_sql_dict`** and executed through the **`create_table`** function.
+
+### Inserting Data
+
+Individual data insertion functions (**`inser_winery_data`**, **`inser_wines_data`**, etc.) add data to each table, requiring tuples formatted according to the table schema.
+
+### Bulk Data Insertion
+
+**`bulk_inserting`** allows for inserting data in bulk from CSV files into the specified tables, matching the table's schema.
+
+### Retrieving Data
+
+**`get_data`** retrieves data from a table, returning it as a list of dictionaries where each dictionary represents a row.
+
+### Listing All Tables
+
+**`list_tables`** provides a list of all table names in the database.
+
+## **API Endpoints**
+
+### **`/wineries`, `/wine`, `/ratings`, `/harmonizer`**
+
+Each endpoint corresponds to its respective table, offering GET methods to return JSON data about the entities in the database.
+
+## **Running the Application**
+
+Start the Docker container with **`docker-compose up`** to run the Flask application and Airflow scheduler. Access the API at **`localhost:8080`**.
+
+## **Notes**
+
+Ensure the correct setup of the PostgreSQL database, proper configuration of environment variables, and installation of dependencies as per **`requirements.txt`**. This API provides a structured and comprehensive approach to accessing and managing wine-related data.
 
       
 ![pipeline_edit](https://github.com/yudinii/practice_/assets/157538170/972ceeeb-fcf2-4eca-ba40-c77500034e6d)
