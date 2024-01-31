@@ -170,7 +170,7 @@ pip install -r requirements.txt
 
 ![bigquery1](https://github.com/yudinii/practice_/assets/157538170/bfe1a5fb-e6c6-4fff-a868-563d76991885)
 
-![bigquery2](https://github.com/yudinii/practice_/assets/157538170/c1b3c78d-8283-4473-aa6c-3f9fbcba5c6c)
+![bigquery2](https://github.com/yudinii/practice_/assets/157538170/34d86ac1-bb9e-4e68-b8ad-fbff099dd3fb)
 
 ![bigquery3](https://github.com/yudinii/practice_/assets/157538170/2127b218-f45b-4c58-93a7-6eb220324c72)
 
