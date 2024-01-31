@@ -17,8 +17,9 @@ Why we made `Wein für Sie`
   
 Getting started
 -------------
-![how it works](https://github.com/yudinii/practice_/assets/157538170/1147e0eb-7237-48da-aebb-4c286202aa10)
-![how it works1](https://github.com/yudinii/practice_/assets/157538170/0e1d39be-be9a-4a54-9d00-c3cc0618d9e1)
+![api](https://github.com/yudinii/practice_/assets/157538170/aaa55c0b-6104-4a10-9372-b529e77851bd)
+
+![api1](https://github.com/yudinii/practice_/assets/157538170/f11bdc92-3c9e-4835-b82e-6c80206be05d)
 
   
 you can also copy the sample code below: 
@@ -99,7 +100,19 @@ GET https://apide.fly.dev/harmonizer
 ```
 
 
-### Data Cleaning 
+      
+![pipeline_edit](https://github.com/yudinii/practice_/assets/157538170/972ceeeb-fcf2-4eca-ba40-c77500034e6d)
+
+```
+pip install -r requirements.txt
+```
+  
+![pipeline1](https://github.com/yudinii/practice_/assets/157538170/ae878010-4c8c-4677-891c-2b9e58da12bb)
+
+![pipeline2](https://github.com/yudinii/practice_/assets/157538170/b37bd870-816a-4ba5-8d81-021934ea6bab)
+
+![pipeline3](https://github.com/yudinii/practice_/assets/157538170/7355970c-b9a5-4506-b197-24fdf96252d8)
+
 
 
 ### BigQuery
