@@ -113,12 +113,21 @@ pip install -r requirements.txt
 
 ![pipeline3](https://github.com/yudinii/practice_/assets/157538170/7355970c-b9a5-4506-b197-24fdf96252d8)
 
+![pulling](https://github.com/yudinii/practice_/assets/157538170/4bfd077f-d399-4029-b1a9-e1e4b3a241fa)
+
+![pulling1](https://github.com/yudinii/practice_/assets/157538170/9a052ae9-e0ff-4ee2-bc28-46a87ac6f70b)
 
 
-### BigQuery
+![bigquery](https://github.com/yudinii/practice_/assets/157538170/ce290aa2-7c8f-4c4a-a721-ed42a5c3d21c)
+
 
   
-### Tableau
+![Dashboard](https://github.com/yudinii/practice_/assets/157538170/7e63cd4a-c548-4579-b6b5-5154f44ed0b9)
+
+![Dashboard1](https://github.com/yudinii/practice_/assets/157538170/643a895f-6482-4a7d-9209-f658858322b3)
+
+![Dashboard2](https://github.com/yudinii/practice_/assets/157538170/c0d891ba-8b28-4f20-ab5c-fd1aeb7e9b02)
+
 
 
 ### How to use
